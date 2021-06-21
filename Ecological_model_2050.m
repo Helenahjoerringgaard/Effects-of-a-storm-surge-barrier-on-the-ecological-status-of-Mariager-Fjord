@@ -95,11 +95,11 @@ K_MIN_S_P=0.045; %1/dag
 Red=7.235;
 
 % Reduktions tests
-C_DIN=[0.2467;zeros(length(tid)-1,1)];
-C_DIP=[0.0474;zeros(length(tid)-1,1)];
+C_DIN=[0.8176;zeros(length(tid)-1,1)];
+C_DIP=[0.0805;zeros(length(tid)-1,1)];
 C_A=[0.0036;zeros(length(tid)-1,1)];
-M_S_N=[9.5097e+05;zeros(length(tid)-1,1)];
-M_S_P=[2.5861e+05;zeros(length(tid)-1,1)];
+M_S_N=[100000;zeros(length(tid)-1,1)];
+M_S_P=[1000;zeros(length(tid)-1,1)];
 
 PP=zeros(length(tid),1);
 SED=zeros(length(tid),1);
